@@ -1,0 +1,93 @@
+########################################
+# FRONTEND
+########################################
+
+
+# Dependencies and build artifacts
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+frontend/.env.local
+frontend/coverage/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# IDE / system
+frontend/.vscode/
+frontend/.idea/
+frontend/.DS_Store
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+
+########################################
+# BACKEND
+########################################
+
+# Dependencies
+backend/node_modules/
+backend/build/
+backend/*.exe
+backend/*.out
+backend/*.app
+backend/*.o
+backend/*.obj
+backend/*.a
+backend/*.so
+backend/*.dll
+backend/*.lib
+backend/*.dylib
+
+# CMake generated
+backend/CMakeCache.txt
+backend/CMakeFiles/
+backend/Makefile
+backend/*.cmake
+backend/*.cmake.*
+backend/cpm-package-lock.cmake
+
+# Misc
+backend/.vscode/
+backend/.idea/
+backend/*.db
+backend/.DS_Store
+backend/*.swp
+backend/*.gcov
+backend/.env
+backend/*.gcda
+backend/*.gcno
+backend/html/
+backend/.cache/
+backend/crow_all.h
+backend/doxygen/
+backend/Testing/
+backend/cmake-build-debug/
+backend/venv/
+backend/.directory
+
+########################################
+# GENERAL
+########################################
+.DS_Store
+*.log
+*.pem
+.vscode/
+.idea/
+.cache/
+
+# AI Tool
+/GEMINI.md
+.gemini/
+gha-creds-*.json
+/AGENTS.md
+/.cursor/
+/scripts/backups/
+PROBLEM.md
+wizard-init.js
+frontend/public/new_user.jpg
